@@ -113,6 +113,10 @@ function Companions:setKeybind(key)
     end
 end
 
+function Companions:activateCompanion(companion)
+    pings.companionSelect(companion)
+end
+
 
 
 --pings
